@@ -1,9 +1,31 @@
 /* Styling the body element */
 body {
-    background-color: blue;
+    background-color: lightblue;
 }
 
 /* Styling the paragraph element */
 p {
     color: white;
+}
+
+/* Styling using id selector */
+#example-of-id {
+    font-weight: 400px;
+}
+
+/* Styling using class selector*/
+.example-of-class {
+    font-size: x-large;
+}
+
+
+/* Styling using pseudo-class*/
+a:hover {
+    color: orange;
+}
+
+
+/* Styling using pseudo-element*/
+p::first-letter {
+    color: green;
 }
