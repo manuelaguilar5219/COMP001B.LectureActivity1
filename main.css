@@ -10,7 +10,7 @@ p {
 
 /* Styling using id selector */
 #example-of-id {
-    font-weight: 400px;
+    font-weight: 400;
 }
 
 /* Styling using class selector*/
@@ -27,5 +27,6 @@ a:hover {
 
 /* Styling using pseudo-element*/
 p::first-letter {
+    font-weight: 500;
     color: green;
 }
